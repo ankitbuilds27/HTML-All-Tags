@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>All HTML TAg- BCA 5th Semester</title>
+
+        <style>
+            Body { font-family: Arial, Helvetica, sans-serif; margin: 20px; line-height: 1.6;}
+            section { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; }
+            table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px;}
+            fieldset { margin-bottom: 20px;}
+        </style>
+
+    </head>
+    <body>
+
+        <!--HEADER SECTION -->
+
+        <header>
+            <h1>All HTML Tags Demo</h1>
+            <h2>BCA 5th Semester Pradical</h2>
+            <nav>
+                <a href="#text-tags">Taxt Tags</a>
+                <a href="#media-tags">Media Tags</a>
+                <a href="#table-tags">Table Tags</a>
+                <a href="#form-tags">Form Tags</a>
+                <a href="#list-tags">List Tags</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <!--Text Formatting tags-->
+
+        <section id="text-tags">
+            <h3>1. Text Formatting Tags</h3>
+            <p>This is anormal paragraph with <b>bold</b>, <strong>strong</strong>,
+            <i>italic</i>, <em>emphasized</em>, <u>underline</u>, <mark>highlighted</mark>,
+            <small>small text</small>, <del>deleted text</del>, <ins>inserted text</ins>,
+            <sub>subscript</sub>, <sup>superscript</sup> text.</p>
+
+            <p>Example of code: <code>int a = 10;</code></p>
+            <pre>Preformatted text
+        Line 1
+        Line 2</pre>
+        <blockquote>This is a blockquote example for BCA students.</blockquote>
+        <p>Prees <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
+        <p>Formula: <var>x</var> =  <var>y</var> + 2</p>
+        <p>Output: <span>Hello World</span></p>
+        <address>BCA Department, XYZ College, India</address>
+        <p>Abbreviation: <abbr title="Bachelor of Computer Application">BCA</abbr></p>
+        - HTML Textbook
+        <br>
+        <br>
+        <span style="background: pink; padding: 10px; border-radius: 10px;">This is a span tag example (inline).</span>
+        <br>
+        <br>
+        <div style="background: pink; padding: 10px; border-radius: 10px;">This is a div tag example (block).</div>
+        </section>
+
+        <!---LIST TAGS-->
+
+        <section id="list-tags">
+            <h3>2. List Tags</h3>
+            <h4>Unordered List</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                </ul>
+
+                <h4>Ordered List</h4>
+                <ol>
+                    <li>Semester 1</li>
+                    <li>Semester 2</li>
+                    <li>Semester 5</li>
+                </ol>
+
+                <h4>Description List</h4>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>HyperText Markup Language</dd>
+                    <dt>CSS</dt>
+                    <dd>Cascading Style Sheets</dd>
+                </dl>
+            
+        </section>
+
+        <!--IMG, VIDEO,TAGs-->
+        
+        <section id="media-tags">
+            <h3>3. Media Tags</h3>
+
+            <h4>Image Tags</h4>
+            <img src="img.jpg" alt="Sample Image" width="200" height="120">
+
+            <h4>Video Tag</h4>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!----TABLE TAGS-->
+
+        <section id="table-tags">
+            <h3>4. Table Tags (table, tr, td, th, caption, thead, thody, tfoot)</h3>
+            <table>
+                <caption>Student Marks Table</caption>
+                <thead>
+                    <tr>
+                        <th>Roll No</th>
+                        <th>Name</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Ankit</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Rishu</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Total Students</td>
+                        <td>2</td>
+                    </tr>
+                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">End of Table</td>
+                            </tr>
+                            </tfoot>
+                            </table>
+                            </section>
+
+
+<section id="Description-list">
+    <h3>5. Description List</h3>
+         <dl>
+             <dt>Coffee</dt>
+             <dd>Black hot drink</dd>
+             <dt>Milk</dt>
+             <dd>White cold drink</dd>
+        </dl>
+        </section>
+                            
+          <!------FORM TAGS-->
+
+        <section id="form-tags">
+            <h3>6. Form Tags</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Student Registration Form</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+                     <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Enter your email"><br><br>
+
+                     <label for="pass">Password:</label>
+                    <input type="text" id="pass"><br><br>
+
+                     <label for="dob">Date of Birth:</label>
+                    <input type="text" id="date"><br><br>
+
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>
+
+                    <label>Hobbies:</label>
+                    <input type="checkbox" id="reading" name="hobby" value="reading">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="sports" name="hobby" value="sports">
+                    <label for="sports">Sports</label><br><br>
+
+                    <label for="course">Select Course:</label>
+                    <select id="course" name="course">
+                        <optgroup label="UG Course">
+                            <option value="bca">BCA</option>
+                            <option value="bsc">B.sc</option>
+                        </optgroup>
+    
+                        <optgroup label="PG Course">
+                            <option value="mca">MCA</option>
+                        </optgroup>
+                    </select><br><br>
+
+                    <label for="address">Address:</label><br>
+                    <textarea id="address" name="address" rows="3" cols="30">Enter address here.....</textarea><br><br>
+
+                    <label for="marks">Marks Range:</label>
+                    <input type="range" id="marks" name="marks" min="0" max="100"><br><br>
+
+                    <label for="profile">Upload Profile Picture:</label>
+                    <input type="file" id="profile" name="profile"><br><br>
+
+                     <label for="fruit">Choose a fruit:</label>
+                    <input list="fruits" id="fruit" name="fruit">
+                    <datalist id="fruits">
+                        <option value="Apple"></option>
+                        <option value="Banana"></option>
+                        <option value="Mango"></option> 
+                    </datalist><br><br>
+
+                    <label for="progress">Course Progress:</label>
+                    <progress id="progress" value="70" max="100">70%</progress><br><br> 
+
+                    <label for="marklevel">Marks Level:</label>
+                    <meter id="marklevel" value="0.6" min="0" max="1">60%</meter><br><br> 
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <input type="submit" value="Submit (Input Type)">
+                </fieldset>
+            </form>
+        </section>
+
+        <!----SEMANTIC / STRUCTURE TAGS-->
+
+    <section>
+        <h3>7. Semantic Strucuture Tags</h3>
+        <artical>
+            <h4>Article Tags Example</h4>
+            <p>This content is inside an article tags, used for independent content blocks.</p>
+        </artical>
+
+        <aside>
+            <p>This is an aside tag, used for side notes or related content.</p>
+        </aside>
+
+        <details>
+            <summary>Click to see more (details/summary tag)</summary>
+            <p>This iss hidden content show when the details tag is expanded.</p>
+        </details>
+    </section>
+
+    <!----FOOTER----->
+
+    <footer>
+        <tr>
+            <p>&copy; 2026 BCA Department | All HTML Tags Demo Page</p>
+        </tr>
+    </footer>
+
+    </body>
+</html>
